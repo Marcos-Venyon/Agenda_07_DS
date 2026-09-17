@@ -6,7 +6,7 @@ consumo = float(input("Informe o consumo mensal de água em m3: "))
 
 # Estrutura de decisão para classificação e emissão de alertas
 if tipo_imovel == "comercial": 
-    
+
     print("Tarifa comercial aplicada – consulte o plano corporativo.")
 
 elif tipo_imovel == "apartamento" and consumo < 10:
@@ -19,4 +19,4 @@ elif (tipo_imovel == "apartamento" and consumo <= 25) or (tipo_imovel == "casa" 
 
 else:
 
-    print("Consumo excessivo – adote medidas de economia e verifique vazamentos.")
+    print("Consumo excessivo – adote medidas de economia e verifique vazamentos.") 
